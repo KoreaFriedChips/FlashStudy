@@ -83,7 +83,7 @@ const Home = () => {
         </div>
       </div>
       <button type="button" onClick={handleClick}>
-        Create Flashcards
+        Create Your Own Flashcards
       </button>
     </div>
   );
