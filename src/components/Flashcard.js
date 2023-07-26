@@ -49,6 +49,18 @@ const Flashcard = ({ category }) => {
       case "redox":
         setFlashcards(redox);
         break;
+      case "acidBase":
+        setFlashcards(acidBase);
+        break;
+      case "organic":
+        setFlashcards(organic);
+        break;
+      case "measurement":
+        setFlashcards(measurement);
+        break;
+      case "optionC":
+        setFlashcards(optionC);
+        break;
       default:
         setFlashcards([]);
     }
